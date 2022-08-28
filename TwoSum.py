@@ -1,6 +1,3 @@
-from curses.ascii import SO
-
-
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         prevMap = {}  # val -> index
